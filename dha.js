@@ -1672,7 +1672,7 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
+              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*── 「 PRICE LIST 」 ──*
 
 *SHERLYNN SEWA BOT WA*
@@ -1683,7 +1683,7 @@ HARGA PERMANEN:~25k~ PROMO!!! *10K* MINAT? HUBUNGI OWNER`
               break             
 //------------------< bayar menu >-------------------  
 case 'bayar':
-gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
+gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
 teksnya = ` *「PAYMENT」*
 • GOPAY : scan diatas
 • PULSA : 081220670449
@@ -1694,7 +1694,7 @@ teksnya = ` *「PAYMENT」*
               break
  
 case 'buttonstik':
-              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
+              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「MENU STICKER」*
 *き⃟🦈 ${prefix}attp* _teks_
 *き⃟🦈 ${prefix}ttp* _teks_
@@ -1711,7 +1711,7 @@ case 'buttonstik':
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
  case 'buttondl':
-              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
+              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「DOWNLOAD MENU」*
 *き⃟🦈 ${prefix}fbdl*
 *き⃟🦈 ${prefix}igdl*
@@ -1730,13 +1730,13 @@ case 'buttonstik':
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttonpen':
-              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
+              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「NULIS MENU」*
 *き⃟🦈 ${prefix}nulis*`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttongame':
-              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
+              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「GAME MENU」*
 き⃟🦈 ${prefix}limitgame*
 *き⃟🦈 ${prefix}slot*
@@ -1762,7 +1762,7 @@ case 'buttongame':
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttongc':
-              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
+              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「GRUP MENU」*
 *き⃟🦈 ${prefix}groupsetting*
 *き⃟🦈 ${prefix}getbio* _reply_
@@ -1791,7 +1791,7 @@ case 'buttongc':
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttonwibu':
-              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
+              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「WIBU MENU」*
 *き⃟🦈 ${prefix}loli*
 *き⃟🦈 ${prefix}manga*
@@ -1820,7 +1820,7 @@ case 'buttonwibu':
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftext, caption: teksnya })
               break
 case 'buttonown':
-              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
+              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「OWNER MENU」*
 *き⃟🦈️ ${prefix}bc* _teks_
 *き⃟🦈 ${prefix}tobc* _audio_
@@ -4184,7 +4184,7 @@ case 'linkgc':
                reply('Okeh nyala')
                break
         case 'info':  // Jangan Di Ubah Plise
-               urlinfo = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
+               urlinfo = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
                thankslort = `*━━━━INFO BOT━━━━*\n*O>Nama : ZAM BOT*\n*O>JAM : ${moment().utcOffset('+0700').format('HH:mm')}*\n*O>DATE : ${moment.tz('Asia/Jakarta').format('DD/MM')}*\n*O>Tipe : Node Js*\n*O>Versi : 3.3*\n*━━━━━━━━━━━━━━━*`
              dha.sendMessage(from, await getBuffer(urlinfo), image, {quoted: mek, caption: thankslort })
              break
