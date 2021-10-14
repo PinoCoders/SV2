@@ -792,7 +792,7 @@ function banChat() {
  case 'donasi':
                txtt =`Hai Kak.....\n*${pushname}*\nMAU DONASI PILIH SALAH SATU`
 
-               buttons = [{buttonId: '!dana',buttonText:{displayText: 'DANA'},type:1},{buttonId:'!gopay',buttonText:{displayText:'GOPAY'},type:1},{buttonId:'!pulsa',buttonText:{displayText:'PULSA'},type:1}]
+               buttons = [{buttonId: '!ovo',buttonText:{displayText: 'OVO'},type:1},{buttonId:'!gopay',buttonText:{displayText:'GOPAY'},type:1},{buttonId:'!pulsa',buttonText:{displayText:'PULSA'},type:1}]
 
                buttonsMessage = {
                contentText: `${txtt}`,
@@ -838,7 +838,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         case 'menu':
         case 'help':
         menu =`Hai Kak.....\n*${pushname}*\n\`\`\`Saya ZAM BOT,SENANG BISA BERTEMU DENGANMU HARI INI\`\`\`
-       MENU ZAM BOT
+       INFO ZAM BOT
 ❏ NAMA : *${pushname}*
 ❏ API : *@${sender.split('@')[0]}*
 ❏ STATUS : *${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
@@ -853,7 +853,7 @@ INFO BOT
 ❏ BATERAI : *${baterai}%*
 ❏ PREIFIX : *『${prefix}』*
 
-   ━━━━━ BOT INFO ━━━━━
+   ━━━━━ BOT MENU ━━━━━
 
 𝖨𝖭𝖥𝖮 𝖬𝖤𝖭𝖴
 *き⃟🦈 ${prefix}update*
@@ -1093,13 +1093,13 @@ Makernya banyak tu kalian masukan aja namanya sendiri
 *き⃟🦈 ${prefix}cekganteng*
 *き⃟🦈 ${prefix}cekcantik*
 ©zambot ©nizam`
-               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: 'INFO BOT'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: 'RULES'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText:'SIMPLE BUTTON MENU'},type:1}]
+               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: 'ALL MENU'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: 'RULES'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText:'SIMPLE BUTTON MENU'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN ZAM BOT WA 994404819287\`\`\`', imageMessage: imageMsg,
+               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN OWNER BOT WA 994404819287\`\`\`', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1672,7 +1672,7 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
               teksnya = `*── 「 PRICE LIST 」 ──*
 
 *SHERLYNN SEWA BOT WA*
@@ -1683,10 +1683,10 @@ HARGA PERMANEN:~25k~ PROMO!!! *10K* MINAT? HUBUNGI OWNER`
               break             
 //------------------< bayar menu >-------------------  
 case 'bayar':
-gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
 teksnya = ` *「PAYMENT」*
 • GOPAY : scan diatas
-• DANA : 081220670449
+• PULSA : 081220670449
 • OVO : scan diatas
 • QRISS DI ATAS 
 ━━━━━━━━━━━━━━━━━━━━`
@@ -1694,7 +1694,7 @@ teksnya = ` *「PAYMENT」*
               break
  
 case 'buttonstik':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
               teksnya = `*「MENU STICKER」*
 *き⃟🦈 ${prefix}attp* _teks_
 *き⃟🦈 ${prefix}ttp* _teks_
@@ -1711,7 +1711,7 @@ case 'buttonstik':
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
  case 'buttondl':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
               teksnya = `*「DOWNLOAD MENU」*
 *き⃟🦈 ${prefix}fbdl*
 *き⃟🦈 ${prefix}igdl*
@@ -1730,13 +1730,13 @@ case 'buttonstik':
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttonpen':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
               teksnya = `*「NULIS MENU」*
 *き⃟🦈 ${prefix}nulis*`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttongame':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
               teksnya = `*「GAME MENU」*
 き⃟🦈 ${prefix}limitgame*
 *き⃟🦈 ${prefix}slot*
@@ -1762,7 +1762,7 @@ case 'buttongame':
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttongc':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
               teksnya = `*「GRUP MENU」*
 *き⃟🦈 ${prefix}groupsetting*
 *き⃟🦈 ${prefix}getbio* _reply_
@@ -1791,7 +1791,7 @@ case 'buttongc':
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 case 'buttonwibu':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
               teksnya = `*「WIBU MENU」*
 *き⃟🦈 ${prefix}loli*
 *き⃟🦈 ${prefix}manga*
@@ -1820,7 +1820,7 @@ case 'buttonwibu':
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftext, caption: teksnya })
               break
 case 'buttonown':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
               teksnya = `*「OWNER MENU」*
 *き⃟🦈️ ${prefix}bc* _teks_
 *き⃟🦈 ${prefix}tobc* _audio_
@@ -4184,7 +4184,7 @@ case 'linkgc':
                reply('Okeh nyala')
                break
         case 'info':  // Jangan Di Ubah Plise
-               urlinfo = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+               urlinfo = 'https://telegra.ph/file/95b54787d5faefa5c7189.jpg'
                thankslort = `*━━━━INFO BOT━━━━*\n*O>Nama : ZAM BOT*\n*O>JAM : ${moment().utcOffset('+0700').format('HH:mm')}*\n*O>DATE : ${moment.tz('Asia/Jakarta').format('DD/MM')}*\n*O>Tipe : Node Js*\n*O>Versi : 3.3*\n*━━━━━━━━━━━━━━━*`
              dha.sendMessage(from, await getBuffer(urlinfo), image, {quoted: mek, caption: thankslort })
              break
@@ -4574,8 +4574,8 @@ case 'coffe':
 					}
 					break                            
 //------------------< Menunya Bang:v >-------------------
-      case 'dana':
-             reply(`DANA : 081220670449\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
+      case 'ovo':
+             reply(`OVO : 081220670449\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
              break
            case 'gopay':
              reply(`GOPAY : 081220670449\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
@@ -4584,10 +4584,10 @@ case 'coffe':
              reply(`PULSA : 081220670449\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
              break              
       case 'infoig':
-             reply(`Jangan Lupa Follow Ig Owner Ya : https://www.instagram.com/kurrsadboy`)
+             reply(`Jangan Lupa Follow Ig Owner Ya : https://www.instagram.com/xnoob_ganz`)
              break
       case 'grupbot':
-             reply('https://chat.whatsapp.com/EymjfVUattCJSGg58WPvrd')
+             reply('https://chat.whatsapp.com/FJdtdDteQkkBSXkAl44sey')
              break
       case 'ownermenu':
              dha.sendMessage(from, ownerMenu(prefix), MessageType.text, {quoted: troli})
