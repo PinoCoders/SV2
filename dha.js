@@ -838,23 +838,22 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         case 'menu':
         case 'help':
         menu =`Hai Kak.....\n*${pushname}*\n\`\`\`Saya ZAM BOT,SENANG BISA BERTEMU DENGANMU HARI INI\`\`\`
-        
-𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔 𝗕𝗢𝗧
+       MENU ZAM BOT
 ❏ NAMA : *${pushname}*
 ❏ API : *@${sender.split('@')[0]}*
 ❏ STATUS : *${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
 ❏ LIMIT : *${isPremium ? 'Unlimited' : `${gcount}`}*
 
-𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
+INFO BOT
 ❏ NAMA : *ZAM BOT*
-❏ API : @994404819287
+❏ API : @+62 0856-4325-04388
 ❏ OWNER : *©NIZAM*
 ❏ API : *@994404819287*
 ❏ AKTIF : *${runtime(process.uptime())}*
 ❏ BATERAI : *${baterai}%*
 ❏ PREIFIX : *『${prefix}』*
 
-   ━━━━━ 𝗔𝗟𝗟 𝗠𝗘𝗡𝗨 ━━━━━
+   ━━━━━ BOT INFO ━━━━━
 
 𝖨𝖭𝖥𝖮 𝖬𝖤𝖭𝖴
 *き⃟🦈 ${prefix}update*
@@ -1093,8 +1092,8 @@ Makernya banyak tu kalian masukan aja namanya sendiri
 *き⃟🦈 ${prefix}babi*
 *き⃟🦈 ${prefix}cekganteng*
 *き⃟🦈 ${prefix}cekcantik*
-©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 ©kurrtod`
-               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: '𝗔𝗟𝗟 𝗠𝗘𝗡𝗨'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: '𝗥𝗨𝗟𝗘𝗦'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText:'SIMPLE BUTTON MENU'},type:1}]
+©zambot ©nizam`
+               buttons = [{buttonId: `${prefix}command`,buttonText:{displayText: 'INFO BOT'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: 'RULES'},type:1},{buttonId:`${prefix}store`,buttonText:{displayText:'SIMPLE BUTTON MENU'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
