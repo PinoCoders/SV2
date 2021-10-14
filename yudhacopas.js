@@ -16,16 +16,16 @@ nocache('../message/group.js', module => console.log(color('[WATCH]', 'yellow'),
 
 const starts = async (dha = new WAConnection()) => {
 	dha.logger.level = 'warn'
-	console.log(color(figlet.textSync('SHERLYNN BOTZ V2', {
+	console.log(color(figlet.textSync('ZAM BOTZ', {
 		font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('[SOURCE CODE INI DIJAGA DAN DI LINDUNGI OLEH KURRXD\n\n', 'orange'), color('\n======TERIMKASIH BANYAK KEPADA======\n•MHANKBARBAR\n•NINO\n•IKYADS\n•KurrXd\n•DAFFA PATNER SAYA\n•COPAS TEAM\n•PENYEDIA APIKEY\n•SELURUH CREATOR BOT\n•SELURUH SUBSCRIBERKU\n•SELURUH BUYER SCRIP INI', 'yellow'))
-	console.log(color('\n\nJANGAN DI JUAL ULANG BRO😑\nKALAU ADA YG MINTA SURUH CHAT ©KurrXd😅\nWA YUDHA 6281220670449😗', 'pink'))
-	dha.browserDescription = ["SHERLYNN BOTZ", "Chrome", "3.0.0"];
+	console.log(color('[SOURCE CODE INI DIJAGA DAN DI LINDUNGI OLEH PINOMODZ\n\n', 'orange'), color('\n======TERIMKASIH BANYAK KEPADA======\n•MHANKBARBAR\n•NINO\n•IKYADS\n•KurrXd\n•DAFFA PATNER SAYA\n•COPAS TEAM\n•PENYEDIA APIKEY\n•SELURUH CREATOR BOT\n•SELURUH SUBSCRIBERKU\n•SELURUH BUYER SCRIP INI', 'yellow'))
+	console.log(color('\n\nJANGAN DI JUAL ULANG BRO😑\nKALAU ADA YG MINTA SURUH CHAT ©Pino😅\nWA Nizam 994404819287😗', 'pink'))
+	dha.browserDescription = ["PINO MODZ", "Chrome", "3.0.0"];
 
 	// Menunggu QR
 	dha.on('qr', () => {
@@ -35,7 +35,7 @@ const starts = async (dha = new WAConnection()) => {
 	// Menghubungkan
 	fs.existsSync(`./${setting.sessionName}.json`) && dha.loadAuthInfo(`./${setting.sessionName}.json`)
 	dha.on('connecting', () => {
-		console.log(color('[ SHERLYNN ]', 'purple'), color('PROSES PENYAMBUNGAN'));
+		console.log(color('[ ZAMBOT ]', 'purple'), color('PROSES PENYAMBUNGAN'));
 	})
 const spinner = { 
   "interval": 120,
